@@ -21,6 +21,10 @@ public class InventoryService {
         return inventoryRepository.findByUser(user);
     }
 
+    public Inventory getInventoryById(Long id){
+        return inventoryRepository.findById(id).orElse(null);
+    }
+
     public List<Inventory> getAllInventory(){
         return inventoryRepository.findAll();
     }
