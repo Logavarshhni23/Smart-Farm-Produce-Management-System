@@ -16,12 +16,12 @@ public class OrderService {
         return orderRepository.save(order);
     }
 
-    public List<Order> getOrderByUser(User buyer){
+    public List<Order> getOrderByBuyer(User buyer){
         return orderRepository.findByBuyer(buyer);
     }
 
-    public List<Order> getOrderderByInventory(Inventory inventory){
-        return orderRepository.findByInventory(inventory);
+    public List<Order> getOrderByInventory(String cropName){
+        return orderRepository.findByInventory(cropName);
     }
 
     public Order updateOrder(Long id,String status){
