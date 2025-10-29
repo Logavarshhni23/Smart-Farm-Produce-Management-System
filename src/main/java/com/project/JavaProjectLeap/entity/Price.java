@@ -1,5 +1,5 @@
 package com.project.JavaProjectLeap.entity;
 
-public class Admin {
+public class Price {
     
 }

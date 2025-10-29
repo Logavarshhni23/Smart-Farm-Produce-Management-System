@@ -1,5 +1,5 @@
 package com.project.JavaProjectLeap.entity;
 
-public class Farmer {
+public class Order {
     
 }

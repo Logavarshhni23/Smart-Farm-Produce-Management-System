@@ -1,5 +1,5 @@
 package com.project.JavaProjectLeap.repository;
 
-public class FarmerRepository {
+public class InventoryRepository {
     
 }
